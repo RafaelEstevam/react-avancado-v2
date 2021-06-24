@@ -1,0 +1,50 @@
+Start Next JS
+
+yarn dev
+
+TypeScripts Dependency
+
+yarn add --dev typescript @types/react @types/node
+
+.editorconfig
+
+Visual Studio Code Editor configs, use with VSCode plugin.
+
+Eslint
+
+  npx eslint --init
+
+  -2
+  -1
+  -1
+  -true
+  -1
+  -
+
+Eslint Command
+
+  eslint src
+
+Eslint Dependency
+
+  npm i eslint-plugin-react-hooks
+
+  Rules in exlintrc.json
+
+  {
+    "plugins": [
+      // ...
+      "react-hooks"
+    ],
+    "rules": {
+      // ...
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  }
+
+Prettier
+
+  npm install --save-dev --save-exact prettier
+
+
