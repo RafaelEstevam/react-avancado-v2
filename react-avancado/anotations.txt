@@ -47,4 +47,8 @@ Prettier
 
   npm install --save-dev --save-exact prettier
 
+Jest
+
+  yarn add --dev jest @babel/preset-typescript @types/jest
+
 
