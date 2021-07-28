@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const Main = ({
-  title = 'React avançado',
+  title = 'React avançadoo',
   description = 'Descrição do componente'
 }) => (
   <S.Wrapper>
